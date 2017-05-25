@@ -1,0 +1,11 @@
+{
+	"name" : "webserver",
+	"default_attributes" : {
+	 "cookbook_test" : {
+		"greeting" : "Webinar"
+	 }
+	},
+"run_list" : [
+    "recipe[cookbook_test::default]"
+ ]
+}
